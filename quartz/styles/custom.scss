@@ -2,3 +2,34 @@
 @use "./syncer";
 
 // put your custom CSS here!
+@font-face {
+  font-family: "PretendardJP-Regular";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("/static/PretendardJPVariable.woff2");
+}
+
+@font-face {
+  font-family: "PretendardJP-SemiBold";
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url("/static/PretendardJPVariable.woff2");
+}
+
+@font-face {
+  font-family: "PretendardJP-ExtraBold";
+  font-style: normal;
+  font-weight: 800;
+  font-display: swap;
+  src: url("/static/PretendardJPVariable.woff2");
+}
+
+@font-face {
+  font-family: "D2Coding-Ligature";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("/static/D2CodingLigature.woff2");
+}
